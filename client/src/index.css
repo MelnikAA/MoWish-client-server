@@ -1,0 +1,10 @@
+
+body {
+    background-color: #f7f8fc;
+}
+
+* {
+    /* font-family: 'Noto Sans JP' !important; */
+    font-family: 'Noto Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
