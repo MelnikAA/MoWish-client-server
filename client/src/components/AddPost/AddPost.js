@@ -69,7 +69,7 @@ const {id} = useParams()
   const handleSearch = async (value) => {
     setSearchValue(value);
     try {
-      const response = await fetch(`https://api.kinopoisk.dev/movie?token=3GK894J-SAT4WBS-GG9WZYX-62WWSDD&search=${value}&field=name&isStrict=false&sortField=votes.imdb&sortType=-1&sortField=rating.kp&sortType=-1`);
+      const response = await fetch(`https://api.kinopoisk.dev/movie?token=***&search=${value}&field=name&isStrict=false&sortField=votes.imdb&sortType=-1&sortField=rating.kp&sortType=-1`);
       const data = await response.json();
       setFilms(data.docs);
       console.log(films)
